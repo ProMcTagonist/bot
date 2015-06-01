@@ -1,0 +1,13 @@
+[package]
+
+name = "rusty"
+version = "0.0.1"
+authors = [ "me" ]
+
+[dependencies.rstox]
+version = "0.0.1"
+git = "http://github.com/suhr/rstox"
+branch = "new-api"
+
+[dependencies.markov]
+git = "https://github.com/aatxe/markov.git"
